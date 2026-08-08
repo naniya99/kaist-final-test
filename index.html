@@ -33,7 +33,7 @@
     window.saveToFirebase = async function(dataJson) {
       try {
         const data = JSON.parse(dataJson);
-        await addDoc(collection(db, 'speaking_results'), data);
+        await addDoc(collection(db, 'final_speaking_results'), data);
         return 'success';
       } catch(e) {
         console.error('Firebase save error:', e);
@@ -44,7 +44,7 @@
     window.loadFromFirebase = async function() {
       try {
         const q = query(
-          collection(db, 'speaking_results'),
+          collection(db, 'final_speaking_results'),
           orderBy('timestamp', 'desc')
         );
         const snapshot = await getDocs(q);
@@ -60,7 +60,7 @@
 
   <script>
     // ── Azure 공통 설정 ───────────────────────────────────
-    const AZURE_STT_KEY = '8cLXCDsSXMbr5al4TlsOogqUuHWIGqIWbPsBuY8Mneo9B4ADOxq1JQQJ99CGACNns7RXJ3w3AAAYACOGDy22';
+    const AZURE_STT_KEY = '여기에_Azure_Key_입력';
     const AZURE_STT_REGION = 'koreacentral';
 
     async function loadAzureSDK() {
@@ -194,28 +194,37 @@
     };
 
     window.stopLongSpeechRecognitionSync = function() {
+      // 마지막 인식 결과까지 포함하기 위해 잠시 대기 후 반환
       const text = (window._azureFullText || '').trim();
-      window._azureFullText = '';
 
       if (window._azureRecognizer) {
         try {
           window._azureRecognizer.stopContinuousRecognitionAsync(
             () => {
+              // 중지 후 마지막 결과 추가 캡처
+              window._azureFullText = '';
               window._azureRecognizer.close();
               window._azureRecognizer = null;
             },
             (err) => {
               console.error('Azure STT 중지 오류:', err);
+              window._azureFullText = '';
               window._azureRecognizer = null;
             }
           );
         } catch(e) {
           window._azureRecognizer = null;
         }
+      } else {
+        window._azureFullText = '';
       }
 
+      console.log('최종 인식 텍스트:', text);
       return text;
     };
+
+    // Flutter에서 동기 호출용
+    window.stopLongSpeechRecognitionSync = window.stopLongSpeechRecognitionSync;
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
