@@ -82916,7 +82916,7 @@ q.go=new A.ai(s,new A.az(0.8,1,r),r.i("ai<am.T>"))
 q.a.toString},
 wx(){var s=0,r=A.F(t.H),q=this,p
 var $async$wx=A.G(function(a,b){if(a===1)return A.C(b,r)
-for(;;)switch(s){case 0:p=A.av4(A.de("https://raw.githubusercontent.com/naniya99/real-korean-video/main/%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC_1.mp4"))
+for(;;)switch(s){case 0:p=A.av4(A.de("https://raw.githubusercontent.com/naniya99/kaist-final-test/main/Final_1.mp4"))
 q.w=p
 p.T(q.gPs())
 s=2
@@ -83438,7 +83438,7 @@ q.dx=new A.ai(s,new A.az(0.8,1,r),r.i("ai<am.T>"))
 q.wd()},
 wd(){var s=0,r=A.F(t.H),q=this,p
 var $async$wd=A.G(function(a,b){if(a===1)return A.C(b,r)
-for(;;)switch(s){case 0:p=A.av4(A.de("https://raw.githubusercontent.com/naniya99/kaist-final-test/main/%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC_3.mp4"))
+for(;;)switch(s){case 0:p=A.av4(A.de("https://raw.githubusercontent.com/naniya99/kaist-final-test/main/Final_3.mp4"))
 q.cx=p
 s=2
 return A.O(p.dO().ba(new A.akg(q),t.P),$async$wd)
@@ -83675,7 +83675,7 @@ q.dx=new A.ai(s,new A.az(0.8,1,r),r.i("ai<am.T>"))
 q.we()},
 we(){var s=0,r=A.F(t.H),q=this,p
 var $async$we=A.G(function(a,b){if(a===1)return A.C(b,r)
-for(;;)switch(s){case 0:p=A.av4(A.de("https://raw.githubusercontent.com/naniya99/kaist-final-test/main/%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC_4.mp4"))
+for(;;)switch(s){case 0:p=A.av4(A.de("https://raw.githubusercontent.com/naniya99/kaist-final-test/main/Final_4.mp4"))
 q.cx=p
 s=2
 return A.O(p.dO().ba(new A.akB(q),t.P),$async$we)
