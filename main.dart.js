@@ -82915,7 +82915,7 @@ q.go=new A.ai(s,new A.az(0.8,1,r),r.i("ai<am.T>"))
 q.a.toString},
 wx(){var s=0,r=A.F(t.H),q=this,p
 var $async$wx=A.G(function(a,b){if(a===1)return A.C(b,r)
-for(;;)switch(s){case 0:p=A.av3(A.dd("https://raw.githubusercontent.com/naniya99/kaist-final-test/main/%EC%B9%B4%EC%9D%B4%EC%8A%A4%ED%8A%B8%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC_1%20(1).mp4"))
+for(;;)switch(s){case 0:p=A.av3(A.dd("https://raw.githubusercontent.com/naniya99/kaist-final-test/main/%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC_1.mp4"))
 q.w=p
 p.T(q.gPs())
 s=2
