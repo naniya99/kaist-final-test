@@ -82918,6 +82918,7 @@ case 2:return A.D(null,r)}})
 return A.E($async$wx,r)},
 ado(){var s,r,q,p,o=this
 if(o.c==null)return
+if(!o.x)return
 s=o.w
 s===$&&A.a()
 s=s.a
