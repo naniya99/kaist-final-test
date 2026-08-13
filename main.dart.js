@@ -82897,7 +82897,7 @@ r.a=q
 q.akQ("ctor: FlutterSoundRecorder()")
 q=t.N
 s=t.z
-return new A.De(r,new A.BD(B.zG,$.al()),A.c([A.ab(["time",2,"question","\ucde8\ubbf8\uac00 \ubb50\uc608\uc694?","questionEn","What is your hobby?"],q,s),A.ab(["time",7,"question","\uac10\uae30\uc5d0 \uac78\ub9ac\uba74 \ubcf4\ud1b5 \ubb34\uc5c7\uc744 \ud574\uc694?","questionEn","What do you usually do when you have a cold?"],q,s),A.ab(["time",12,"question","\uace0\ud5a5\uc740 \uc5b4\ub5a4 \uacf3\uc774\uc5d0\uc694?","questionEn","What kind of place is your hometown?"],q,s)],t.H7),A.c([],t.Vx),null,null)}}
+return new A.De(r,new A.BD(B.zG,$.al()),A.c([A.ab(["time",2,"question","\ucde8\ubbf8\uac00 \ubb50\uc608\uc694?","questionEn","What is your hobby?"],q,s),A.ab(["time",7,"question","\uac10\uae30\uc5d0 \uac78\ub9ac\uba74 \ubcf4\ud1b5 \ubb34\uc5c7\uc744 \ud574\uc694?","questionEn","What do you usually do when you have a cold?"],q,s),A.ab(["time",10,"question","\uace0\ud5a5\uc740 \uc5b4\ub5a4 \uacf3\uc774\uc5d0\uc694?","questionEn","What kind of place is your hometown?"],q,s)],t.H7),A.c([],t.Vx),null,null)}}
 A.De.prototype={
 aB(){var s,r,q=this
 q.aT()
